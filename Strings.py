@@ -8,3 +8,34 @@ message='yo'
 print(type(message))
 
 print('\\ is special character in python.')
+
+# Concatenation
+# has ro be str 
+language='Python'
+version=3.11
+print(language +str(version))
+
+#  *=> used for repetiion
+print('#'*50)
+
+price='10.5'
+print(price * 5) #this will write 10.5 five times
+print(float(price)*5)
+
+
+#slicing
+# string_variable[start:stop:step]
+movie='The Godfather'
+print(movie[0:12])#last index excluded
+print(movie[0:2])
+print(movie[:2])
+print(movie[4:])
+print(movie[-2:])
+
+print(movie[:4]+movie[4:])
+
+print(movie[:42])# Doesn’t raise an error for out-of-range indices and stops at the end of the sequence.
+
+print(movie[0:10:2])
+print(movie[::])
+print(movie[::-1])#chars in reverse
