@@ -38,4 +38,12 @@ print(movie[:42])# Doesn’t raise an error for out-of-range indices and stops a
 
 print(movie[0:10:2])
 print(movie[::])
-print(movie[::-1])#chars in reverse
+print(movie[::-1])#used for printing chars in reverse aslo if we take like -3 or soemthing it will print them in reverse for var steps of 3
+
+# you can also do this
+print('Python 3!!!'[:7:2])
+
+# also this
+s='hello'
+s[::-1][::-1] == s
+# basically its used for both string literal and string varaible
