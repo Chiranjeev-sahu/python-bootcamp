@@ -14,7 +14,12 @@ print(new_s)
 # same for .lower(), also we can use it in string literal btw
 print('progRaMMinG'.lower())
 
-
+# str.capitalize()->used to convert the first character of a string to uppercase, and all other characters to lowercase.
+text = "hello world"
+capitalized_text = text.capitalize()
+print(capitalized_text)
+s = 'pYThoN'
+print(s.capitalize())
 
 my_str='I learn Python Programming'
 
@@ -83,3 +88,23 @@ print('Python' in my_str)
 
 # check if its not present w/o knowing position
 print('Python' not in my_str)
+
+
+# str.remove prefix and remove str.suffix
+
+url='https://example.com'
+cleaned_url=url.removeprefix('https://')
+print(cleaned_url)
+
+filename='report_20204.pdf'
+cleaned_filename=filename.removesuffix('.pdf')
+print(cleaned_filename)
+
+# these are safe as if the desiderd prefix doesnt exist then unaltered original string is returend but they are not recursive i.e use it multiple time to remove multiple occurances we have to call another method
+
+
+
+
+f = 'foo'
+b = 'bar'
+print('barf' in 3 * (f + b))
