@@ -47,12 +47,12 @@ print(new_value)
 
 
 #5.str.count()
-txt='I learn Python,Python is cool as fak yo!'
+txt='Python is cool as fak yo!'
 n=txt.count('Python')
 print(n)
 
 # its case sensiteive so if we do this , this will return 0
-txt='I learn PyThon,python is cool as fak yo!'
+txt='I learned PyThon!'
 n=txt.count('Python')
 print(n)
 # we can do this to solve it
