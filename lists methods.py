@@ -32,7 +32,7 @@ print(l2)
 y=l2.pop(1)# => 20
 print(f"y={y},{l2}")
 
-l2.pop(100)#=> error
+# l2.pop(100)#=> error
 
 # list.remove(): removes the first match of the first occurrance of the given element
 l3=[10,20,30,40,20]
