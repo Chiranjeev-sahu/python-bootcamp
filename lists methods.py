@@ -85,7 +85,7 @@ maximum = max(my_list)
 print(maximum) # Output: 40
 
 l2 = [-9,10,5,100,66]
-print(f'max')
+print(f'max:{max(l2)}')
 
 # min(): Get the minimum element
 my_list = [10, 30, 20, 40]
