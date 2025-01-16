@@ -17,7 +17,7 @@ print("Intersection using intersection():", intersection_set)  # Output: {3}
 # 3. Difference (- or difference())
 difference_set = set1 - set2  # Using -
 print("Difference using -:", difference_set)  # Output: {1, 2}
-difference_set = set1.difference(set2)  # Using difference()
+difference_set = set1.difference(set2)  # Using difference()=> this converts the argument tp the set if it can be
 print("Difference using difference():", difference_set)  # Output: {1, 2}
 
 # 4. Symmetric Difference (^ or symmetric_difference())
