@@ -27,3 +27,13 @@ print(f'x outside the function: {x}')#both will return 11 as the global x will b
 
 # prin(a)
 # a=100
+
+numbers = [1,2,3]
+x=10
+def my_func(numbers,x):
+    numbers.append(5)
+    x=66
+    print(f'x inside the function: {x}')
+
+my_func(numbers,x)
+print('After calling the function,number is {numbers} and x is {x}')  

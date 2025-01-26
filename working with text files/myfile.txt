@@ -1,0 +1,4 @@
+Line 100Line added with r+
+
+Some text here.
+Another text
