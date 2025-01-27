@@ -5,3 +5,5 @@ print(content)
 #to close:
 f.close()
 print(f.closed)
+
+#always close the files
